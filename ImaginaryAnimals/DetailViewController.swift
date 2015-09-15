@@ -24,7 +24,7 @@ class DetailViewController: UIViewController {
         if let animal = animal {
             self.nameLabel.text = "Name: " + animal.name
             self.heightLabel.text = "Height: \(animal.height)"
-            self.locationLabel.text = "Location: \n" + animal.location
+            self.locationLabel.text = "Location: " + animal.location
             self.dateLastSeenLabel.text = "Date Last Seen: " + animal.dateLastSeen
         }
     }

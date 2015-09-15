@@ -21,7 +21,9 @@ struct AnimalsLoader {
         }
         if let jsonArray:[AnyObject] = jsonArray {
             for animalJson in jsonArray {
-                let animal = ImaginaryAnimal(fromJson: animalJson)
+                if let animal = ImaginaryAnimal(fromJSON: animalJson){
+                    animalsArray.append(animal)
+                }
             }
         }
         return animalsArray
