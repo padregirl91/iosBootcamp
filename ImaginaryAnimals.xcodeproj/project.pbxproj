@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D9409BCC1BA77826000607DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9409BCB1BA77826000607DE /* AppDelegate.swift */; };
-		D9409BCE1BA77826000607DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9409BCD1BA77826000607DE /* ViewController.swift */; };
 		D9409BD11BA77826000607DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9409BCF1BA77826000607DE /* Main.storyboard */; };
 		D9409BD31BA77826000607DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9409BD21BA77826000607DE /* Assets.xcassets */; };
 		D9409BD61BA77826000607DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9409BD41BA77826000607DE /* LaunchScreen.storyboard */; };
 		D9409BE11BA77826000607DE /* ImaginaryAnimalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9409BE01BA77826000607DE /* ImaginaryAnimalsTests.swift */; };
+		D9DFE8D81BA77AD90059BD61 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFE8D71BA77AD90059BD61 /* TableViewController.swift */; };
+		D9DFE8DA1BA7803F0059BD61 /* ImaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFE8D91BA7803F0059BD61 /* ImaginaryAnimal.swift */; };
+		D9DFEA8F1BA788210059BD61 /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEA8E1BA788210059BD61 /* AnimalsLoader.swift */; };
+		D9DFEA911BA78B620059BD61 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEA901BA78B620059BD61 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		D9409BC81BA77826000607DE /* ImaginaryAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginaryAnimals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9409BCB1BA77826000607DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9409BCD1BA77826000607DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9409BD01BA77826000607DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9409BD21BA77826000607DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9409BD51BA77826000607DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		D9409BDC1BA77826000607DE /* ImaginaryAnimalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginaryAnimalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9409BE01BA77826000607DE /* ImaginaryAnimalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaginaryAnimalsTests.swift; sourceTree = "<group>"; };
 		D9409BE21BA77826000607DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DFE8D71BA77AD90059BD61 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D9DFE8D91BA7803F0059BD61 /* ImaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaginaryAnimal.swift; sourceTree = "<group>"; };
+		D9DFEA8E1BA788210059BD61 /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
+		D9DFEA901BA78B620059BD61 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				D9409BCB1BA77826000607DE /* AppDelegate.swift */,
-				D9409BCD1BA77826000607DE /* ViewController.swift */,
 				D9409BCF1BA77826000607DE /* Main.storyboard */,
 				D9409BD21BA77826000607DE /* Assets.xcassets */,
 				D9409BD41BA77826000607DE /* LaunchScreen.storyboard */,
 				D9409BD71BA77826000607DE /* Info.plist */,
+				D9DFE8D71BA77AD90059BD61 /* TableViewController.swift */,
+				D9DFE8D91BA7803F0059BD61 /* ImaginaryAnimal.swift */,
+				D9DFEA8E1BA788210059BD61 /* AnimalsLoader.swift */,
+				D9DFEA901BA78B620059BD61 /* DetailViewController.swift */,
 			);
 			path = ImaginaryAnimals;
 			sourceTree = "<group>";
@@ -145,6 +154,7 @@
 				TargetAttributes = {
 					D9409BC71BA77826000607DE = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = L25P52WSA5;
 					};
 					D9409BDB1BA77826000607DE = {
 						CreatedOnToolsVersion = 7.1;
@@ -196,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9409BCE1BA77826000607DE /* ViewController.swift in Sources */,
 				D9409BCC1BA77826000607DE /* AppDelegate.swift in Sources */,
+				D9DFE8D81BA77AD90059BD61 /* TableViewController.swift in Sources */,
+				D9DFEA911BA78B620059BD61 /* DetailViewController.swift in Sources */,
+				D9DFEA8F1BA788210059BD61 /* AnimalsLoader.swift in Sources */,
+				D9DFE8DA1BA7803F0059BD61 /* ImaginaryAnimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +337,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ImaginaryAnimals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Epocrates.ImaginaryAnimals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -335,10 +351,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ImaginaryAnimals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Epocrates.ImaginaryAnimals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -385,6 +404,7 @@
 				D9409BE71BA77826000607DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9409BE81BA77826000607DE /* Build configuration list for PBXNativeTarget "ImaginaryAnimalsTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +413,7 @@
 				D9409BEA1BA77826000607DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
