@@ -16,6 +16,7 @@
 		D9DFE8DA1BA7803F0059BD61 /* ImaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFE8D91BA7803F0059BD61 /* ImaginaryAnimal.swift */; };
 		D9DFEA8F1BA788210059BD61 /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEA8E1BA788210059BD61 /* AnimalsLoader.swift */; };
 		D9DFEA911BA78B620059BD61 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFEA901BA78B620059BD61 /* DetailViewController.swift */; };
+		D9DFEA931BA88E410059BD61 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DFEA921BA88E410059BD61 /* Animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		D9DFE8D91BA7803F0059BD61 /* ImaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaginaryAnimal.swift; sourceTree = "<group>"; };
 		D9DFEA8E1BA788210059BD61 /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
 		D9DFEA901BA78B620059BD61 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D9DFEA921BA88E410059BD61 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		D9409BCA1BA77826000607DE /* ImaginaryAnimals */ = {
 			isa = PBXGroup;
 			children = (
+				D9DFEA921BA88E410059BD61 /* Animals.json */,
 				D9409BCB1BA77826000607DE /* AppDelegate.swift */,
 				D9409BCF1BA77826000607DE /* Main.storyboard */,
 				D9409BD21BA77826000607DE /* Assets.xcassets */,
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9409BD61BA77826000607DE /* LaunchScreen.storyboard in Resources */,
+				D9DFEA931BA88E410059BD61 /* Animals.json in Resources */,
 				D9409BD31BA77826000607DE /* Assets.xcassets in Resources */,
 				D9409BD11BA77826000607DE /* Main.storyboard in Resources */,
 			);
